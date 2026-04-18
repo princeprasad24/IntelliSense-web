@@ -62,9 +62,3 @@ The system integrates embedded hardware, cloud services, and a web-based dashboa
 
 ---
 
-## Installation and Setup
-
-### 1. Clone Repository
-```bash
-git clone https://github.com/your-username/intellisense-iot.git
-cd intellisense-iot
