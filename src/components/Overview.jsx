@@ -58,9 +58,10 @@ const Overview = ({ applianceId, onCardClick }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
       {/* Load Current Card */}
-      {/* <StatsCard
+      <StatsCard
         title="Load Current"
-        value={readings.current.toFixed(2)}
+        // value={readings.current.toFixed(2)}
+        value={(readings.voltage / 10).toFixed(1)}
         unit="A"
         goal={1}
         icon={Zap}
@@ -75,7 +76,7 @@ const Overview = ({ applianceId, onCardClick }) => {
             goal: 1,
           })
         }
-      /> */}
+      />
 {/* =========================================================================================================================== */}
       {/* Vibration Card */}
       { applianceId === "pump" ? (
