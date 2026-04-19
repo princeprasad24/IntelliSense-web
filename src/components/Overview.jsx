@@ -82,7 +82,7 @@ const Overview = ({ applianceId, onCardClick }) => {
       { applianceId === "pump" ? (
         <StatsCard
           title="Water Flow"
-          value={readings.waterflow}
+          value={readings.Flow}
           unit="g"
           goal={"50 l/m "}
           icon={Activity}
